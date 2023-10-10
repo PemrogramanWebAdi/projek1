@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  background-color: brown;
+  color: #fff;
+  height: 80px;
+}
+.navbar .container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .container ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+body {
+  background-color: #ccc;
+}
+
+.kelas {
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "jian jian jian jian"
+    "resti neng neng tiara"
+    "m-husni m-husni m-husni m-husni"
+    "gilang gilang agni agni";
+}
+
+.item1 {
+  grid-area: jian;
+}
+.item2 {
+  grid-area: neng;
+}
+.item3 {
+  grid-area: tiara;
+}
+.item6 {
+  grid-area: resti;
+}
+.item7 {
+  grid-area: m-husni;
+}
+.item4 {
+  grid-area: gilang;
+}
+.item5 {
+  grid-area: agni;
+}
